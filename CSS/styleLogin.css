@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fundo{
+    background-image: url(../Images/fundocard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.user{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3rem;
+    color: #FFF;
+}
+.logo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.input{
+    background-color: #dfdcdc;
+    border-radius: 18px;
+    border: 2px solid #fff;
+    background-color: #131212;
+}
+.input::placeholder{
+    color: #fff;
+}
+.input:hover{
+    background-color: #131212 !important;
+    color: #fff !important;
+}
+.color{
+    background-color: #272727;
+}
+.botao{
+    background-image: url(../Images/fundobutton.jpg);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+  }
+
+a{
+    text-decoration: none;
+}
+.text{
+    text-decoration: none;
+}
+.botao:hover{
+    text-decoration: none;
+    outline: none;
+}

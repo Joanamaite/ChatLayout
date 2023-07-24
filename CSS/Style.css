@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.row{
+    flex-wrap: nowrap;
+}
+.imagemFundo {
+    background-image: url(../Image/5084836.jpg);
+    background-size: cover;
+    width: 43%; 
+   height: 100vh;
+ }
+.logo {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 40%;
+    height: auto;
+  }
+.logoEscrita{
+    top: 450px;
+    margin-left: 100px; 
+    width: 20vw;
+    font-family: 'Inter', sem serifa;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF2F2;
+
+}
+.escrita{
+    height: 35px;
+    width: 300px;
+    margin-left: 60%;
+    top: 148px;
+    
+}
+.escritamenor{
+    color: #3A0BBE;
+    font-family: 'IM Fell French Canon', serif;
+    font-family: 'Inter', sem serifa;
+    margin-left: 15%;
+    text-align: center;
+    width: 633px;
+    
+}
+.escritanome{
+    color: #3A0BBE;
+    font-family: 'IM FELL French Canon';
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.input{
+    position: absolute;
+    width: 500px;
+    height: 55px;
+    margin-top: 55%;
+    margin-left: 38%;
+    background: #E8DCDC;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+}
+.botao{
+    background-image: url(../Image/5084836.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 15%;
+    
+}
